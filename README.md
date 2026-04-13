@@ -11,6 +11,7 @@ DSA Practice
 | [0015-3sum](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0015-3sum) |
 | [0049-group-anagrams](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0049-group-anagrams) |
 | [0088-merge-sorted-array](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0088-merge-sorted-array) |
+| [0128-longest-consecutive-sequence](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0219-contains-duplicate-ii) |
@@ -71,6 +72,7 @@ DSA Practice
 | [0001-two-sum](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0049-group-anagrams](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0049-group-anagrams) |
+| [0128-longest-consecutive-sequence](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0202-happy-number](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0202-happy-number) |
 | [0205-isomorphic-strings](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0205-isomorphic-strings) |
 | [0219-contains-duplicate-ii](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0219-contains-duplicate-ii) |
@@ -85,4 +87,8 @@ DSA Practice
 |  |
 | ------- |
 | [0202-happy-number](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0202-happy-number) |
+## Union-Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->
