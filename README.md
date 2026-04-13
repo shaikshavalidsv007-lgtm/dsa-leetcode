@@ -30,6 +30,7 @@ DSA Practice
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0125-valid-palindrome](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0125-valid-palindrome) |
+| [0205-isomorphic-strings](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0205-isomorphic-strings) |
 | [0383-ransom-note](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0383-ransom-note) |
 | [0392-is-subsequence](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0392-is-subsequence) |
 ## Dynamic Programming
@@ -58,6 +59,7 @@ DSA Practice
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0205-isomorphic-strings](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0205-isomorphic-strings) |
 | [0383-ransom-note](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0383-ransom-note) |
 ## Counting
 |  |
