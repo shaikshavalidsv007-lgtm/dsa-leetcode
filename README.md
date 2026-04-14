@@ -13,6 +13,7 @@ DSA Practice
 | [0088-merge-sorted-array](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0088-merge-sorted-array) |
 | [0128-longest-consecutive-sequence](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0189-rotate-array](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0189-rotate-array) |
 | [0209-minimum-size-subarray-sum](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0219-contains-duplicate-ii) |
 ## Two Pointers
@@ -23,6 +24,7 @@ DSA Practice
 | [0088-merge-sorted-array](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0189-rotate-array](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0202-happy-number) |
 | [0392-is-subsequence](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0392-is-subsequence) |
 ## Sorting
@@ -86,6 +88,7 @@ DSA Practice
 ## Math
 |  |
 | ------- |
+| [0189-rotate-array](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0202-happy-number) |
 ## Union-Find
 |  |
