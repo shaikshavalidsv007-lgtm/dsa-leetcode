@@ -10,6 +10,7 @@ DSA Practice
 | [0011-container-with-most-water](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0015-3sum) |
 | [0049-group-anagrams](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0049-group-anagrams) |
+| [0055-jump-game](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0055-jump-game) |
 | [0088-merge-sorted-array](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0088-merge-sorted-array) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0128-longest-consecutive-sequence](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0128-longest-consecutive-sequence) |
@@ -49,6 +50,7 @@ DSA Practice
 ## Dynamic Programming
 |  |
 | ------- |
+| [0055-jump-game](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0392-is-subsequence](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0392-is-subsequence) |
 ## Binary Search
@@ -60,6 +62,7 @@ DSA Practice
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0011-container-with-most-water) |
+| [0055-jump-game](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 ## Sliding Window
 |  |
