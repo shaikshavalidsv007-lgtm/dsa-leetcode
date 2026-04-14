@@ -41,6 +41,7 @@ DSA Practice
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0049-group-anagrams](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0049-group-anagrams) |
+| [0058-length-of-last-word](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0058-length-of-last-word) |
 | [0125-valid-palindrome](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0125-valid-palindrome) |
 | [0205-isomorphic-strings](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0242-valid-anagram) |
