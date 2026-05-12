@@ -112,3 +112,192 @@ public class ReversePrint {
         printReverse();
     }
 }
+
+
+
+
+
+
+print "Before Call" and "After Call" to observe call order
+
+
+static void printNumbers() {
+
+    if (num > 3) {
+        return;
+    }
+
+    int current = num;
+
+    System.out.println("Before Call: " + current);
+
+    num++;
+
+    printNumbers();
+
+    System.out.println("After Call: " + current);
+}
+
+
+
+
+
+
+print numbers from 1 to n after the recursive call
+
+
+public class PrintAfterCall {
+
+    static void printNumbers(int n) {
+
+        // Base condition
+        if (n == 0) {
+            return;
+        }
+
+        // Recursive call first
+        printNumbers(n - 1);
+
+        // Print after recursive call
+        System.out.println(n);
+    }
+
+    public static void main(String[] args) {
+        printNumbers(5);
+    }
+}
+
+
+
+
+
+
+
+print numbers 1 to n before the recursive call
+
+public class PrintOneToN {
+
+    static void printNumbers(int current, int n) {
+
+        // Base condition
+        if (current > n) {
+            return;
+        }
+
+        // Print before recursive call
+        System.out.println(current);
+
+        // Recursive call
+        printNumbers(current + 1, n);
+    }
+
+    public static void main(String[] args) {
+        printNumbers(1, 5);
+    }
+}
+
+
+
+
+sum of first n numbers using recursion with parameters
+
+public class SumOfNumbers {
+
+    static int sum(int n) {
+
+        // Base condition
+        if (n == 0) {
+            return 0;
+        }
+
+        // Recursive relation
+        return n + sum(n - 1);
+    }
+
+    public static void main(String[] args) {
+
+        int result = sum(5);
+
+        System.out.println("Sum = " + result);
+    }
+}
+
+
+
+sum of first n numbers using recursion with parameters
+
+public class SumWithTwoParameters {
+
+    static void sum(int i, int sum) {
+
+        // Base condition
+        if (i < 1) {
+            System.out.println("Sum = " + sum);
+            return;
+        }
+
+        // Recursive call
+        sum(i - 1, sum + i);
+    }
+
+    public static void main(String[] args) {
+
+        sum(5, 0);
+    }
+}
+
+
+
+
+
+factorial of first n numbers
+
+
+public class FactorialRecursion {
+
+    static int factorial(int n) {
+
+        // Base condition
+        if (n == 0 || n == 1) {
+            return 1;
+        }
+
+        // Recursive relation
+        return n * factorial(n - 1);
+    }
+
+    public static void main(String[] args) {
+
+        int result = factorial(5);
+
+        System.out.println("Factorial = " + result);
+    }
+}
+
+
+
+
+factorial of first n numbers using two parameters
+
+
+
+public class FactorialWithParameters {
+
+    static void factorial(int n, int fact) {
+
+        // Base condition
+        if (n < 1) {
+            System.out.println("Factorial = " + fact);
+            return;
+        }
+
+        // Recursive call
+        factorial(n - 1, fact * n);
+    }
+
+    public static void main(String[] args) {
+
+        factorial(5, 1);
+    }
+}
+
