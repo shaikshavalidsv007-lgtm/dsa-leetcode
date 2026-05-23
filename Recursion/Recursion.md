@@ -305,53 +305,75 @@ public class FactorialWithParameters {
 
 
 
-You are given a string s. Your task is to determine if the string is a palindrome. A string is considered a palindrome if it reads the same forwards and backwards.
-
-Examples :
-
-Input: s = "abba"
-Output: true
-Explanation: "abba" reads the same forwards and backwards, so it is a palindrome.
-Input: s = "abc" 
-Output: false
-Explanation: "abc" does not read the same forwards and backwards, so it is not a palindrome.
+reverse an array using recursion with two parameters
 
 
 
+public class ReverseArrayRecursion {
 
-class Solution {
-    
-    boolean check_recursive(String s, int left, int right)  {
-        
-         while(left<right) {
-            
-            if(s.charAt(left) != s.charAt(right)) {
-                return false;
-            }
-            
-            return check(s, left+1, right-1);
+    static int[] arr = {1, 2, 3, 4, 5};
+
+    public static void reverse(int left, int right) {
+
+        // Base condition
+        if (left >= right) {
+            return;
         }
-        return true;
-    }
-    
-    
-boolean check(String s, int left, int right) {
 
-        if (left >= right) return true;
+        // Swap
+        int temp = arr[left];
+        arr[left] = arr[right];
+        arr[right] = temp;
 
-        if (s.charAt(left) != s.charAt(right)) return false;
-
-        return check(s, left + 1, right - 1);
+        // Recursive call
+        reverse(left + 1, right - 1);
     }
 
+    public static void main(String[] args) {
+
+        reverse(0, arr.length - 1);
+
+        for (int num : arr) {
+            System.out.print(num + " ");
+        }
+    }
+}
 
 
-    boolean isPalindrome(String s) {
-        
-       s = s.toLowerCase().replaceAll("[^a-z0-9]", "");
-       
-       return check(s, 0, s.length()-1);
-       
+
+
+
+reverse an array using recursion with one parameter
+
+
+
+public class ReverseArrayRecursion {
+
+    static int[] arr = {1, 2, 3, 4, 5};
+
+    public static void reverse(int i) {
+
+        // Base condition
+        if (i >= arr.length / 2) {
+            return;
+        }
+
+        // Swap
+        int temp = arr[i];
+        arr[i] = arr[arr.length - i - 1];
+        arr[arr.length - i - 1] = temp;
+
+        // Recursive call
+        reverse(i + 1);
+    }
+
+    public static void main(String[] args) {
+
+        reverse(0);
+
+        for (int num : arr) {
+            System.out.print(num + " ");
+        }
     }
 }
 
@@ -359,48 +381,33 @@ boolean check(String s, int left, int right) {
 
 
 
-Pow(x, n)
 
-Implement pow(x, n), which calculates x raised to the power n (i.e., xn).
-
- 
-
-Example 1:
-
-Input: x = 2.00000, n = 10
-Output: 1024.00000
-Example 2:
-
-Input: x = 2.10000, n = 3
-Output: 9.26100
-Example 3:
-
-Input: x = 2.00000, n = -2
-Output: 0.25000
-Explanation: 2-2 = 1/22 = 1/4 = 0.25
+valid palindrome
 
 
-class Solution {
-    public double myPow(double x, int n) {
-           long N = n; 
-        if (N < 0) {
-            x = 1 / x;
-            N = -N;
+public class ValidPalindromeRecursion {
+
+    static String str = "madam";
+
+    public static boolean isPalindrome(int left, int right) {
+
+        // Base condition
+        if (left >= right) {
+            return true;
         }
-        return recurse(x, N);
+
+        // Check characters
+        if (str.charAt(left) != str.charAt(right)) {
+            return false;
+        }
+
+        // Recursive call
+        return isPalindrome(left + 1, right - 1);
     }
 
-    private double recurse(double x, long n) {
-        
-        if (n == 0) return 1.0;
+    public static void main(String[] args) {
 
-       
-        double half = recurse(x, n / 2);
-
-        if (n % 2 == 0) {
-            return half * half;       
-        } else {
-            return half * half * x;   
-        }
+        System.out.println(isPalindrome(0, str.length() - 1));
     }
 }
+
