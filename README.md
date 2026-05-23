@@ -98,10 +98,15 @@ DSA Practice
 ## Math
 |  |
 | ------- |
+| [0050-powx-n](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0050-powx-n) |
 | [0189-rotate-array](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0202-happy-number) |
 ## Union-Find
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0128-longest-consecutive-sequence) |
+## Recursion
+|  |
+| ------- |
+| [0050-powx-n](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0050-powx-n) |
 <!---LeetCode Topics End-->
