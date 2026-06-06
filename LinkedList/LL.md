@@ -412,3 +412,188 @@ class Main {
         
     }
 }
+
+
+
+
+
+Delete head in LL
+
+class Solution {
+    public ListNode deleteHead(ListNode head) {
+
+        if(head == null) return head;
+
+        ListNode temp = head;
+        head = head.next;
+        return head;
+         
+    }
+}
+
+Delete tail in LL
+
+
+class Solution {
+    public ListNode deleteTail(ListNode head) {
+
+        if( head == null || head.next == null) {
+            return null;
+        }
+        ListNode temp = head;
+
+        while(temp.next.next != null){
+            temp = temp.next;
+        }
+        temp.next = null;
+        return head;
+    }
+}
+
+
+Delete Kth element in LL
+
+class Solution {
+    public ListNode deleteKthNode(ListNode head, int k) {
+       if(head == null) return head;
+
+       if(k==1) {
+        ListNode temp = head;
+        head = head.next;
+        return head;
+       }
+
+       int count = 0;  ListNode prev = null;
+       ListNode temp = head;
+    while(temp!=null) {
+         count++;
+         if(count == k) {
+            prev.next = prev.next.next;
+            break;
+         }
+         prev = temp;
+         temp = temp.next;
+    }
+    return head;
+       
+    }
+}
+
+
+Delete the value with X
+
+class Solution {
+    public ListNode deleteNodeWithValueX(ListNode head, int X) {
+        if(head == null) return head;
+
+       if(head.data == X) {
+        ListNode temp = head;
+        head = head.next;
+        return head;
+       }
+
+       ListNode prev = null;
+       ListNode temp = head;
+    while(temp!=null) {
+
+         if(temp.data == X) {
+            prev.next = prev.next.next;
+            break;
+         }
+         prev = temp;
+         temp = temp.next;
+    }
+    return head;
+    }
+}
+
+
+Insertion at the head of Linked List
+
+class Solution {
+    public ListNode insertAtHead(ListNode head, int X) {
+        ListNode temp = new ListNode(X, head);
+        return temp;
+    }
+}
+
+
+
+Insertion at the tail of Linked List
+
+class Solution {
+    public ListNode insertAtTail(ListNode head, int X) {
+       if(head == null) return new ListNode(X);
+
+       ListNode temp = head;
+
+       while(temp.next!= null) {
+        temp = temp.next;
+       }
+       ListNode newNode = new ListNode(X);
+       temp.next = newNode;
+       return head;
+    }
+}
+
+
+
+Insertion at the Kth position of Linked List
+
+
+class Solution {
+    public ListNode insertAtKthPosition(ListNode head, int X, int K) {
+       if(head == null) {
+        return new ListNode(X);
+       }
+
+       if(K==1) {
+        ListNode temp = new ListNode(X, head);
+        return temp;
+       }
+
+       int count =0; ListNode temp = head;
+       while (temp != null) {
+        count++;
+        if(count == K-1) {
+            ListNode n = new ListNode(X);
+
+            n.next = temp.next;
+            temp.next = n;
+            break;
+        }
+        temp = temp.next;
+       }
+       return head;
+    }
+}
+
+
+
+Insertion before the value X in Linked List
+
+
+class Solution {
+    public ListNode insertBeforeX(ListNode head, int X, int val) {
+        if(head == null) {
+        return null;
+       }
+
+       if(head.data == X) {
+        
+        return new ListNode(val, head);
+       }
+
+        ListNode temp = head;
+       while (temp.next != null) {
+        
+        if(temp.next.data == X) {
+            ListNode n = new ListNode(val, temp.next);
+            temp.next = n;
+            return head;
+        }
+        temp = temp.next;
+       }
+       return head;
+    }
+}
