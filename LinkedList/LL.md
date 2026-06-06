@@ -597,3 +597,142 @@ class Solution {
        return head;
     }
 }
+
+
+
+
+
+Double LL
+
+
+class Node {
+    // Value of the node
+    int data;        
+    // Pointer to the next node
+    Node next;      
+    // Pointer to the previous node
+    Node back;      
+
+    // Constructor to initialize a node with data
+    Node(int data) {
+        this.data = data;
+        this.next = null;
+        this.back = null;
+    }
+}
+
+
+Convert array to DLL
+
+
+
+public class DLinkedList {
+
+    private static void print(Node head) {
+        while (head != null) {
+            System.out.print(head.data + " ");
+            head = head.next;
+        }
+        System.out.println();
+    }
+
+    private static Node convertArr2DLL(int[] arr) {
+        Node head = new Node(arr[0]);
+        Node prev = head;
+
+        for (int i = 1; i < arr.length; i++) {
+            Node temp = new Node(arr[i], null, prev);
+            prev.next = temp;
+            prev = temp;
+        }
+
+        return head;
+    }
+
+    public static void main(String[] args) {
+        int[] arr = {12, 5, 6, 8};
+        Node head = convertArr2DLL(arr);
+        print(head);
+    }
+}
+
+
+
+
+
+
+
+Convert Array to Doubly Linked List
+
+
+
+class Solution {
+    public ListNode arrayToDoublyLinkedList(List<Integer> arr) {
+	
+	if (arr == null || arr.size() == 0) {
+            return null;
+        }
+
+       ListNode head = new ListNode(arr.get(0));
+       ListNode prev = head;
+       for(int i =1; i<arr.size(); i++) {
+        ListNode temp = new ListNode(arr.get(i), prev, null);
+        prev.next = temp;
+        prev =temp;
+
+       }
+       return head;
+    }
+}
+
+
+
+
+Delete head of Doubly Linked List
+
+
+
+class Solution {
+    public ListNode deleteHead(ListNode head) {
+
+        if(head == null || head.next == null) {
+
+            return null;
+        }
+
+        ListNode bef = head;
+        head = head.next;
+        head.prev = null;
+        bef.next = null;
+
+        return head;
+	}
+}
+
+
+Delete Tail of Doubly Linked List
+
+
+class Solution {
+    public ListNode deleteTail(ListNode head) {
+        
+        if(head == null || head.next == null) {
+
+            return null;
+        }
+
+        ListNode tail = head;
+        while(tail.next != null) {
+            tail = tail.next;
+        }
+        ListNode prevTail = tail.prev;
+
+        prevTail.next = null;
+        tail.prev = null;
+        return head;
+
+    }
+}
+
+
+
