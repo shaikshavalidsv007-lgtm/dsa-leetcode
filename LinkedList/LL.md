@@ -736,3 +736,183 @@ class Solution {
 
 
 
+Delete Kth Element of Doubly Linked List
+
+
+class Solution {
+    public ListNode deleteKthElement(ListNode head, int k) {
+
+        if(head == null) return null;
+
+        ListNode kNode = head;
+        int count  = 0;
+
+        while(kNode != null) {
+            count++;
+            if(count ==k) {
+                break;
+            }
+            kNode = kNode.next;
+        }
+
+        ListNode bef = kNode.prev;
+        ListNode aft = kNode.next;
+
+        if(bef == null && aft == null) {
+            return null;
+        }else if(bef == null) {
+            head = aft;
+            aft.prev = null;
+        } else if(aft == null) {
+            bef.next = null;
+
+        } else {
+
+            bef.next = aft;
+            aft.prev = bef;
+        }
+
+        return head;
+        
+    }
+}
+
+
+
+
+Removing given node in Doubly Linked List
+
+
+class Solution {
+    public void deleteGivenNode(ListNode node) {
+
+        ListNode prev= node.prev;
+        ListNode front = node.next;
+
+        if(front == null) {
+            prev.next = null;
+            node.prev =null;
+            return;
+        }
+
+        prev.next = front;
+        front.prev = prev;
+
+        node.next = node.prev = null;
+        
+    }
+}
+
+
+
+
+Insert node before head in Doubly Linked List
+
+
+class Solution {
+    public ListNode insertBeforeHead(ListNode head, int data) {
+        ListNode newHead = new ListNode(data, null, head);
+         head.prev = newHead;
+         return newHead;
+    }
+}
+
+
+
+
+
+
+
+Insert node before tail in Doubly Linked List
+
+
+
+class Solution {
+    public ListNode insertBeforeTail(ListNode head, int X) {
+
+         if (head.next == null) {
+            // Create new node with data as X
+            ListNode newHead = new ListNode(X, null, head);
+            head.prev = newHead;
+            return newHead;
+        }
+
+        ListNode tail = head;
+        while(tail.next!=null){
+            tail = tail.next;
+        }
+
+        ListNode bef = tail.prev;
+
+        ListNode newNode = new ListNode(X, bef, tail);
+
+        bef.next =newNode;
+        tail.prev = newNode;
+
+        return head;
+       
+    }
+}
+
+
+
+
+
+Insert node before (kth node) in Doubly Linked List
+
+
+class Solution {
+    public ListNode insertBeforeKthPosition(ListNode head, int X, int K) {
+
+
+       if (K == 1) {
+            ListNode newHead = new ListNode(X, null, head);
+            head.prev = newHead;
+            return newHead;
+        }
+
+        ListNode temp  = head;
+        int count  = 0;
+
+        while(temp  != null) {
+            count++;
+            if(count ==K) {
+                break;
+            }
+            temp  = temp .next;
+        }
+             ListNode prev = temp.prev;
+             ListNode newNode = new ListNode(X, prev, temp);
+
+              prev.next = newNode;
+              temp.prev = newNode;
+        
+                 return head;
+        
+    }
+}
+
+
+
+
+Insert before given node in Doubly Linked List
+
+
+class Solution {
+    public void insertBeforeGivenNode(ListNode node, int X) {
+        
+        ListNode prev = node.prev;
+
+        
+        ListNode newNode = new ListNode(X, prev, node);
+
+        
+        prev.next = newNode;
+        node.prev = newNode;
+
+        
+        return;
+    }
+}
+
+
