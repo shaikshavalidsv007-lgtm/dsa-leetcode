@@ -114,6 +114,7 @@ DSA Practice
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0002-add-two-numbers) |
+| [0021-merge-two-sorted-lists](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0021-merge-two-sorted-lists) |
 | [0050-powx-n](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0050-powx-n) |
 ## Combinatorics
 |  |
@@ -123,5 +124,6 @@ DSA Practice
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0002-add-two-numbers) |
+| [0021-merge-two-sorted-lists](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0021-merge-two-sorted-lists) |
 | [0141-linked-list-cycle](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0141-linked-list-cycle) |
 <!---LeetCode Topics End-->
