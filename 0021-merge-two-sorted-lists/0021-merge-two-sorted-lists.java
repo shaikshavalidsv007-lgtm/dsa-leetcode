@@ -9,7 +9,7 @@
  * }
  */
 class Solution {
-    public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
+    public ListNode mergeTwoLists_first(ListNode list1, ListNode list2) {
 
          if (list1 == null) return list2;
          if (list2 == null) return list1;
@@ -19,7 +19,7 @@ class Solution {
         ListNode ptr = dummy;
 
         while(list1 != null  && list2 != null) {
-            if(list1.val < list2.val) {
+            if(list1.val <= list2.val) {
 
                 ptr.next = list1;
                 list1=list1.next;
@@ -45,4 +45,22 @@ class Solution {
         return dummy.next;
         
     }
+
+
+
+    public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
+
+    // base cases
+    if (list1 == null) return list2;
+    if (list2 == null) return list1;
+
+    // pick smaller node
+    if (list1.val <= list2.val) {
+        list1.next = mergeTwoLists(list1.next, list2);
+        return list1;
+    } else {
+        list2.next = mergeTwoLists(list1, list2.next);
+        return list2;
+    }
+}
 }
