@@ -101,6 +101,7 @@ DSA Practice
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0002-add-two-numbers) |
 | [0050-powx-n](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0050-powx-n) |
 | [0062-unique-paths](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0062-unique-paths) |
 | [0189-rotate-array](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0189-rotate-array) |
@@ -112,6 +113,7 @@ DSA Practice
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0002-add-two-numbers) |
 | [0050-powx-n](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0050-powx-n) |
 ## Combinatorics
 |  |
@@ -120,5 +122,6 @@ DSA Practice
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0002-add-two-numbers) |
 | [0141-linked-list-cycle](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0141-linked-list-cycle) |
 <!---LeetCode Topics End-->
