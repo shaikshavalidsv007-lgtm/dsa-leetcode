@@ -55,6 +55,7 @@ public int maxSubArray_better(int[] nums) {
 
         int sum =0;
         int start=0;
+         int arrStart = 0; int arrEnd = 0;
 
         for(int i=0; i<n; i++) {
 
@@ -65,7 +66,7 @@ public int maxSubArray_better(int[] nums) {
 
                 if(sum>max_sum) {
                     max_sum = sum;
-                    int arrStart = start; int arrEnd = i;
+                    arrStart = start; arrEnd = i;
                 }
 
 
