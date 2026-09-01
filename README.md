@@ -11,6 +11,7 @@ DSA Practice
 | [0015-3sum](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0015-3sum) |
 | [0045-jump-game-ii](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0045-jump-game-ii) |
 | [0049-group-anagrams](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0049-group-anagrams) |
+| [0053-maximum-subarray](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0055-jump-game) |
 | [0088-merge-sorted-array](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0088-merge-sorted-array) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -54,6 +55,7 @@ DSA Practice
 |  |
 | ------- |
 | [0045-jump-game-ii](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0045-jump-game-ii) |
+| [0053-maximum-subarray](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0062-unique-paths) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -126,4 +128,8 @@ DSA Practice
 | [0002-add-two-numbers](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0021-merge-two-sorted-lists) |
 | [0141-linked-list-cycle](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0141-linked-list-cycle) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0053-maximum-subarray](https://github.com/shaikshavalidsv007-lgtm/dsa-leetcode/tree/master/0053-maximum-subarray) |
 <!---LeetCode Topics End-->
